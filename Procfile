@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* javarestapi.server.ServerMain
+web: java -cp target/classes:target/dependency/* javarestapi.server.ServerMain
