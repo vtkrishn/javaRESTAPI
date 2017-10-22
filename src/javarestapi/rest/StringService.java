@@ -12,6 +12,7 @@ public class StringService {
     
     @GET
     public String get(){
-        return "Hello";
+        String result = "{ result : Resume}";
+        return result;
     }
 }
