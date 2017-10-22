@@ -3,23 +3,15 @@
     xmlns="http://java.sun.com/xml/ns/javaee"
     xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-    version="2.5">
+    version="3.0">
   <servlet>
       <servlet-name>jersey-services</servlet-name>
       <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
-      <init-param>
-          <param-name>com.sun.jersey.config.property.packages</param-name>
-          <param-value>javarestapi.rest</param-value>
-      </init-param>
-      <init-param>
-          <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
-          <param-value>true</param-value>
-      </init-param>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>jersey-services</servlet-name>
-    <url-pattern>/services/*</url-pattern>
+    <url-pattern>/*</url-pattern>
   </servlet-mapping>
 
 </web-app>
