@@ -20,11 +20,25 @@
     <artifactId>jetty-webapp</artifactId>
     <version>9.4.7.v20170914</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-json -->
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-json</artifactId>
+    <version>1.19.4</version>
+</dependency>
+
+<dependency>
+    <groupId>com.sun.jersey</groupId>
+    <artifactId>jersey-server</artifactId>
+    <version>1.19.4</version>
+</dependency>
 <dependency>
     <groupId>com.sun.jersey</groupId>
     <artifactId>jersey-servlet</artifactId>
     <version>1.19.4</version>
-</dependency>
+
+	</dependency>
   </dependencies>
   <build>
     <sourceDirectory>src/</sourceDirectory>
