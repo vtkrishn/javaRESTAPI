@@ -13,16 +13,16 @@ public class ServerMain {
                 if (webPort == null || webPort.isEmpty()) {
                     webPort = "80";
         }
-        Server server = new Server(Integer.valueOf(webPort)); 
-        WebAppContext root = new WebAppContext();
-        root.setContextPath("/");
-                root.setDescriptor(webappDirLocation + "/WEB-INF/web.xml");
-        root.setResourceBase(webappDirLocation);
-        root.setParentLoaderPriority(true);
-
-                server.setHandler(root);
-
-                server.start();
-        server.join();
+//        Server server = new Server(Integer.valueOf(webPort)); 
+//        WebAppContext root = new WebAppContext();
+//        root.setContextPath("/");
+//                root.setDescriptor(webappDirLocation + "/WEB-INF/web.xml");
+//        root.setResourceBase(webappDirLocation);
+//        root.setParentLoaderPriority(true);
+//
+//                server.setHandler(root);
+//
+//                server.start();
+//        server.join();
     }
 }
