@@ -11,7 +11,7 @@ public class ServerMain {
         String webappDirLocation = "src/webapp/";
         String webPort = System.getenv("PORT");
                 if (webPort == null || webPort.isEmpty()) {
-                    webPort = "80";
+                    webPort = "8080";
         }
 //        Server server = new Server(Integer.valueOf(webPort)); 
 //        WebAppContext root = new WebAppContext();
