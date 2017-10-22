@@ -6,7 +6,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 
-@Path("/resume")
+@Path("/rest")
 @Produces(MediaType.APPLICATION_JSON)
 public class StringService {
     
