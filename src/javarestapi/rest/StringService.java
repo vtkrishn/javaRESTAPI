@@ -12,7 +12,7 @@ public class StringService {
     
     @GET
     public String get(){
-        String result = "{ result : Resume}";
+        String result = "{\"result\" : \"Resume\"}";
         return result;
     }
 }
