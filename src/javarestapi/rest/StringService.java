@@ -12,6 +12,6 @@ public class StringService {
     
     @GET
     public String get(){
-        return "Resume";
+        return "resume";
     }
 }
