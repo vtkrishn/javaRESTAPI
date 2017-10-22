@@ -7,7 +7,7 @@ public class ServerMain {
         super();
     }
     
-    public static void main(String ... args){
+    public static void main(String ... args) throws Exception{
         String webappDirLocation = "src/webapp/";
         String webPort = System.getenv("PORT");
                 if (webPort == null || webPort.isEmpty()) {
