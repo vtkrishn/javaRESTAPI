@@ -6,12 +6,12 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 
-@Path("/rest")
+@Path("/resume")
 @Produces(MediaType.APPLICATION_JSON)
 public class StringService {
     
     @GET
     public String get(){
-        return "resume";
+        return "Hello";
     }
 }
